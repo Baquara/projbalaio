@@ -3,7 +3,7 @@
   <h1> Todos os anúncios</h1>
   <%= form_tag posts_path, :method => 'get', class: 'navbar-form navbar-left' do%>
     <div class='form-group'>
-      <%= text_field_tag :search, params[:search], class: 'form-control', placeholder: 'Search' %>
+      <%= text_field_tag :search, params[:search], class: 'form-control', placeholder: 'Busca' %>
     </div>
     <%= submit_tag "Buscar", :name => nil, class: 'btn btn-default' %>
   <% end %>
